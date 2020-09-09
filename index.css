@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.header{
+    padding: 80px;
+    text-align: center;
+    background: gainsboro;
+    color: black;
+}
+.header h1{
+    font-size:40px;
+}
+nav{
+    overflow: hidden;
+    background-color:#3a435e;
+}
+nav a{
+    float: left;
+    display: block;
+    color:#5c6672;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a.right {
+    float:right;
+}
+nav a.hover {
+    background-color: powderblue;
+    color:black;
+}
+* {
+    box-sizing: border-box;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+side{
+    flex:30%;
+    background-color: grey;
+    padding: 20px;
+}
+.main{
+    flex: 70%;
+    background-color: lavender;
+    padding:20px
+}
+@media screen and (max-width: 700px) {
+    .row{
+        flex-direction:column;
+    }
+}
+@media screen and (max-width: 400px){
+    .navbar a{
+        float:none;
+        width:100%;
+    }
+}
+/*footer{
+    padding:15px;
+    width: 100%;
+    text-align:center;
+    background: #3a435e;
+    vertical-align:middle;
+    color:lavender;
+    height: auto;
+}*/
+ul > li > a
+{
+  padding:10px;
+text-decoration: none;
+color:#c9c9ee;
+
+}
+ul > li > a:hover{ color:#9e7b9b; }
+
+ul{
+  list-style-type: none;
+  margin:0px auto;
+}
+li { display: inline; }
+
+.header1{
+  font-size: 20px;  
+  font-family: 'Roboto Slab', serif;
+}
+
+.about-me{
+    padding: 15px;
+    width:100%;
+    text-align: left-align;
+    background: lavender;
+    color: black;
+}
+
+
+body{
+  background-color:#5c6672;
+  position: relative
+}
+
+.header h2{
+    font-size:20px;
+}
+body, html {
+    height:100%; /* ADD this */
+}
+
+footer {
+      background-color: #3a435e;
+      width: 100%;
+      text-align: center;
+      color:lavender;    
+      height: 100px;   
+      padding-top: 10px;     
+}
+
+li {
+  display: list-item;
+  list-style-position: inside;
+}
+ img{
+   width: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px
+ }
